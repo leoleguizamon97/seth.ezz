@@ -15,6 +15,10 @@ app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));     //Ver solicitudes en consola
 app.use(express.json());    //Permite recibir info en este formato
 
+//Routes (Redirige al router)
+app.use(require('./routes/router.js'));
+
+
 //Test
 app.listen(app.get('port'),() => {
     console.log('Server corriendo en puerto', app.get('port'), __dirname);

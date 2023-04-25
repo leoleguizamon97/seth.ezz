@@ -13,3 +13,9 @@ coverage/
 
 # Archivos de configuración
 .env
+
+# Archivos sueltos
+.DS_Store
+Thumbs.db
+
+##Documento creado con chat gpt

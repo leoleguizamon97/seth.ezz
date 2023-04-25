@@ -21,5 +21,5 @@ app.use(require('./routes/router.js'));
 
 //Test
 app.listen(app.get('port'),() => {
-    console.log('Server corriendo en puerto', app.get('port'), __dirname);
+    console.log('Server corriendo en puerto http://localhost:',app.get('port'), __dirname);
 });

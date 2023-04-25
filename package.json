@@ -4,8 +4,7 @@
   "description": "Red social con enfoque gamer para latinoamerica",
   "main": "seth.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seth": "nodemon scr/seth.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
